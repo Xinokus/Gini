@@ -2,13 +2,12 @@ import classes from './main.module.scss'
 import './swiper.scss'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { useState } from 'react';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 
 import Xccelerate from './img/xccelerate.png'
 import PV from './img/pv.png'

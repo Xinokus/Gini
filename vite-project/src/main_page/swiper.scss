@@ -67,3 +67,79 @@ main{
         }
     }
 }
+@media screen and (min-width: 425px) and (max-width: 767px){
+    main{
+        .sect_two{
+            .swiper-slide{
+                width: none !important;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 50px;
+                }
+            }
+        }
+        .sect_six{
+            .swiper-slide{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 350px;
+            }
+            .swiper-button-disabled{
+                opacity: 0;
+            }
+            .swiper-button-next{
+                content: url('./img/button_arrow_large.png');
+                width: 20px;
+                height: 20px;
+            }
+            .swiper-button-prev{
+                content: url('./img/button_arrow_large.png');
+                width: 20px;
+                height: 20px;
+                rotate: 180deg;
+            }
+        }
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 424px){
+    main{
+        .sect_two{
+            .swiper-slide{
+                width: none !important;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 40px;
+                }
+            }
+        }
+        .sect_six{
+            .swiper-slide{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 350px;
+            }
+            .swiper-button-disabled{
+                opacity: 0;
+            }
+            .swiper-button-next{
+                content: url('./img/button_arrow_large.png');
+                width: 20px;
+                height: 20px;
+                transform: translateX(10px);
+            }
+            .swiper-button-prev{
+                content: url('./img/button_arrow_large.png');
+                width: 20px;
+                height: 20px;
+                rotate: 180deg;
+                transform: translateX(10px);
+            }
+        }
+    }
+}
